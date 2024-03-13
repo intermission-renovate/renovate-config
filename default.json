@@ -2,8 +2,14 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:best-practices",
+    "config:js-app",
     "npm:unpublishSafe",
-    "group:allNonMajor"
+    ":combinePatchMinorReleases",
+    ":automergeMinor",
+    ":automergePr",
+    ":automergeLinters",
+    ":automergeTesters",
+    ":automergeTypes"
   ],
   "osvVulnerabilityAlerts": true
 }
