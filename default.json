@@ -4,7 +4,6 @@
     "config:best-practices",
     "config:js-app",
     "npm:unpublishSafe",
-    "group:allNonMajor",
     ":automergeMinor",
     ":automergePr",
     ":automergeLinters",
