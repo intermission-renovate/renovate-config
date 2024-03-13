@@ -3,15 +3,7 @@
   "extends": [
     "config:best-practices",
     "config:js-app",
-    "npm:unpublishSafe",
-    ":automergeMinor",
-    ":automergePr",
-    ":automergeLinters",
-    ":automergeTesters",
-    ":automergeTypes"
+    "npm:unpublishSafe"
   ],
-  "osvVulnerabilityAlerts": true,
-  "prConcurrentLimit": 0,
-  "branchConcurrentLimit": 0,
-  "prHourlyLimit": 0
+  "commitMessagePrefix": "Renovate"
 }
