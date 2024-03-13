@@ -3,7 +3,8 @@
   "extends": [
     "config:best-practices",
     "config:js-app",
-    "npm:unpublishSafe"
+    "npm:unpublishSafe",
+    "mergeConfidence:all-badges"
   ],
   "commitMessagePrefix": "Renovate"
 }
