@@ -11,5 +11,8 @@
     ":automergeTesters",
     ":automergeTypes"
   ],
-  "osvVulnerabilityAlerts": true
+  "osvVulnerabilityAlerts": true,
+  "prConcurrentLimit": 0,
+  "branchConcurrentLimit": 0,
+  "prHourlyLimit": 0
 }
